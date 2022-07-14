@@ -1,0 +1,24 @@
+{
+  "Print to console8": {
+    "description": "",
+    "prefix": "bong_Fun_GestureDetector_TabDown", //name
+    "body": [
+      "static bool _tapInProgress = false;",
+      "void _tapDown(TapDownDetails details) {",
+      "setState(() {",
+      "_tapInProgress = true;",
+      "});",
+      "}",
+      "void _tapUp(TapUpDetails details) {",
+      "setState(() {",
+      "_tapInProgress = false;",
+      "});",
+      "}",
+      "void _tapCancel() {",
+      "setState(() {",
+      "_tapInProgress = false;",
+      "});",
+      "}",
+    ],
+  },
+}

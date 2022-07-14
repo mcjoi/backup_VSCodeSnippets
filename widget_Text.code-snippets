@@ -1,0 +1,17 @@
+{
+  "텍스트파일_폰트설정": {
+    "prefix": "bong_Widget_Text", //name
+    "description": "",
+    "body": [
+      "Widget _txt(String txt) {",
+      "return Text(",
+      "txt,",
+      "style: TextStyle(",
+      "fontFamily: 'coo',",
+      "fontSize: 25,",
+      "),",
+      ");",
+      "}",
+    ]
+  }
+}

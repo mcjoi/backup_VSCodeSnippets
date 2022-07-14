@@ -1,0 +1,20 @@
+{
+  "Print to console2": {
+    "prefix": "bong_Fun_showSubPage", //name
+    "description": "",
+    "body": [
+      "void _showSubPage(BuildContext context) {",
+      "Navigator.of(context).push(",
+      "MaterialPageRoute(",
+      "builder: (ctx) => Scaffold(",
+      "appBar: AppBar(),",
+      "body: Center(",
+      "child: Text('input something'),",
+      "),",
+      "),",
+      "),",
+      ");",
+      "}",
+    ],
+  },
+}

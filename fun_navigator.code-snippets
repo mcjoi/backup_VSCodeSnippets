@@ -1,0 +1,12 @@
+{
+  "navigator 샘플": {
+    "prefix": "bong_Code_Navigator", //name
+    "body": [
+      "//Navigator.of(context).popUntil(ModalRoute.withName(Navigator.defaultRouteName));",
+      "//Navigator.of(context).push(MaterialPageRoute(",
+      "//builder: (ctx) => MyApp(),",
+      "//));",
+    ],
+    "description": ""
+  },
+}

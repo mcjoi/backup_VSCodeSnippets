@@ -1,0 +1,25 @@
+{
+  "Print to console4": {
+    "prefix": "bong_Fun_ImagePicker", //name
+    "description": "",
+    "body": [
+      "// import 'package:image_picker/image_picker.dart';",
+      "// File _imageFile;",
+      "Future<Null> _pickImageFromGallery() async {",
+      "final File imageFile =",
+      "await ImagePicker.pickImage(source: ImageSource.gallery);",
+      "setState(() {",
+      "this._imageFile = imageFile;",
+      "});",
+      "}",
+      "setState(() {",
+      "Future<Null> _pickImageFromCamera() async {",
+      "final File imageFile =",
+      "await ImagePicker.pickImage(source: ImageSource.camera);",
+      "setState(() {",
+      "this._imageFile = imageFile;",
+      "});",
+      "}"
+    ],
+  },
+}
